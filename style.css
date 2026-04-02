@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #dcd7a5; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #0b1a78;
+    line-height: 1.1;
+}
+
+.location {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.hero-text button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+.hero-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #cfc98c;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.about {
+    background: #d8d3a8;
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.title {
+    font-size: 60px;
+    color: #e6e1a8;
+    margin-bottom: 20px;
+}
+
+.desc {
+    color: #1a1a4f;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #1a1a4f;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.item h3 {
+    margin: 0;
+    color: #1a1a4f;
+}
+
+.item p {
+    margin-top: 8px;
+    color: #1a1a4f;
+    line-height: 1.5;
+}
+
+/* 🎬 VIDEOLAR */
+.videos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.videos video {
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.videos video:hover {
+    transform: scale(1.05);
+}
